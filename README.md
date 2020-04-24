@@ -58,7 +58,7 @@ Under **IIEC-RISE 1.0** Campaign I learnt about Docker under the guidance of Vim
    * After using docker compose up now in one click you can stop your whole setup. Just use `docker-compose stop`. Again you want to start the service use `docker compose start`. 
 ![Docker-compose-start-stop](Screenshots/Docker-compose-start-stop.png)
 ## 9. Docker-compose down:
-  * You can easily remove the containers using `docker compose down` command.
+  * You can easily stop the containers using `docker compose down` command.
 ## Troubleshooting and Solves:
   #### There might be a possibility that you may face some troubleshoots. As we know in these kinds of automations are depended on many things and suppose any of the dependency might not accurate. Here are some suggestions:
    * After you restart your base OS you will see problem cause previous time you stopped your firewall and after system restart firewall will start again. So before again starting docker-compose you should stop firewall. You can check the status of your firewall using `systemctl status firewalld`. If you want to permanently disable firewall you can use `systemctl disable firewalld`.
